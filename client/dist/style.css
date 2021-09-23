@@ -1,0 +1,26 @@
+html, body, h1, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Lato;
+  }
+
+  h1 {
+      left: 10px;
+      position: relative;
+      font-size: 28px;
+      margin-bottom: 10px;
+  }
+
+  #reports {
+      position: relative;
+      width: 560px;
+      left: 10px;
+  }
+
+  .report{
+      border-top: 1px solid;
+  }

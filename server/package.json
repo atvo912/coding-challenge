@@ -1,0 +1,23 @@
+{
+  "name": "coding-challenge-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "nodemon",
+    "prod": "yarn build && yarn start",
+    "prod:forever": "yarn build && forever start index.js"
+  },
+  "author": "atvo912",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^4.0.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.12"
+  }
+}
